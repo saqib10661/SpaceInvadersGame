@@ -652,7 +652,7 @@ class SpaceInvaders:
         #gameState baack to 1 which is the start menu.
         for event in events:
             if event.type == pygame.KEYDOWN:
-                if event.key == pygame.K_x:
+                if event.key == pygame.K_f:
                     pygame.quit()
                     sys.exit()
                 elif event.key == pygame.K_r:
