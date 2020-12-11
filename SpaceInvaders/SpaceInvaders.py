@@ -185,7 +185,7 @@ class SpaceInvaders:
                     self.gameState = 2
                 elif event.key == pygame.K_h:
                     self.gameState = 4
-                elif event.key == pygame.K_h:
+                elif event.key == pygame.K_x:
                      pygame.quit()
                      sys.exit()     
                 
